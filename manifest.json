@@ -1,0 +1,31 @@
+{
+    "name": "PAVE - Pocket AI Value Engine",
+    "short_name": "PAVE",
+    "description": "未来を切り拓く家計簿。AIが自動で支出を仕分け、あなたの価値を記録する。",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#05060f",
+    "theme_color": "#6366f1",
+    "icons": [
+        {
+            "src": "https://pave-app.vercel.app/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://pave-app.vercel.app/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "share_target": {
+        "action": "/index.html?tab=capture",
+        "method": "GET",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    }
+}
